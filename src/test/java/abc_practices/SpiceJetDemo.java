@@ -22,7 +22,7 @@ public class SpiceJetDemo {
 		System.out.println(driver.findElement(By.cssSelector("#ctl00_mainContent_rbtnl_Trip_0")).getTagName());
 		System.out.println(driver.findElement(By.cssSelector("#ctl00_mainContent_rbtnl_Trip_0")).isDisplayed());
 		System.out.println(driver.findElement(By.cssSelector("#ctl00_mainContent_rbtnl_Trip_0")).isEnabled());
-		System.out.println(driver.findElement(By.cssSelector("#ctl00_mainContent_rbtnl_Trip_0")).is);
+		System.out.println(driver.findElement(By.cssSelector("#ctl00_mainContent_rbtnl_Trip_0")).isEnabled());
 		
 		System.out.println(driver.findElement(By.cssSelector("#ctl00_mainContent_rbtnl_Trip_0")).getAttribute("value").contains("Oneway"));
 		driver.getWindowHandles();
